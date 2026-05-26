@@ -1,0 +1,16 @@
+<section id="skills">
+  <div class="container">
+    <p class="section-label">/ 03</p>
+    <h2 class="section-title">Skills & Expertise</h2>
+    {% for cat in site.data.skills %}
+    <div class="skill-cat">
+      <h3>{{ cat.category }}</h3>
+      <div class="skill-pills">
+        {% for skill in cat.items %}
+        <span>{{ skill }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

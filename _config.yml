@@ -1,0 +1,61 @@
+title: Handar
+tagline: Less, but better.
+description: >-
+  Software engineer focused on crafting clear, functional, and
+  maintainable systems.
+url: "https://mhkry412.github.io"
+baseurl: ""
+lang: en
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:title/
+
+# MathJax (LaTeX)
+mathjax: true
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Theme settings
+theme:
+  accent: "#000000"
+  font_body: "system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+  font_mono: "'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace"
+  max_width: "720px"
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - assets/resume/resume.typ
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

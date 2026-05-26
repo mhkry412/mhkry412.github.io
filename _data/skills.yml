@@ -1,0 +1,37 @@
+- category: Languages
+  items:
+    - TypeScript
+    - JavaScript
+    - Go
+    - Rust
+    - Python
+    - SQL
+    - HTML / CSS
+
+- category: Frontend
+  items:
+    - React
+    - Vue.js
+    - Svelte
+    - Tailwind CSS
+    - Next.js
+    - WebGL
+
+- category: Backend & Infrastructure
+  items:
+    - Node.js
+    - Express
+    - PostgreSQL
+    - Redis
+    - Docker
+    - Kubernetes
+    - AWS
+    - CI/CD
+
+- category: Design & Tools
+  items:
+    - Figma
+    - System Design
+    - API Design
+    - Git
+    - Linux

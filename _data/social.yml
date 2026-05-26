@@ -1,0 +1,15 @@
+- label: Email
+  url: "mailto:hello@handar.dev"
+  external: false
+
+- label: GitHub
+  url: "https://github.com/handar"
+  external: true
+
+- label: LinkedIn
+  url: "https://linkedin.com/in/handar"
+  external: true
+
+- label: Twitter
+  url: "https://twitter.com/handar"
+  external: true

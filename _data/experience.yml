@@ -1,0 +1,35 @@
+- role: Software Engineer
+  company: Freelance
+  dates: "2022 – Present"
+  description: >
+    Design and build full-stack web applications for clients across
+    industries. Focus on clean architecture, performance, and
+    maintainable code.
+  highlights:
+    - Built and deployed 10+ production applications
+    - Reduced page load times by 40% through optimization
+    - Migrated legacy monoliths to modern stack
+
+- role: Frontend Developer
+  company: Digital Agency
+  dates: "2020 – 2022"
+  description: >
+    Developed responsive web applications and component libraries.
+    Collaborated with designers and backend engineers to deliver
+    pixel-perfect, accessible interfaces.
+  highlights:
+    - Led redesign of flagship product interface
+    - Established design system used by 3 teams
+    - Mentored 2 junior developers
+
+- role: Junior Developer
+  company: Startup
+  dates: "2018 – 2020"
+  description: >
+    First engineering hire at an early-stage startup. Built the
+    initial product, iterated on user feedback, and helped shape
+    engineering practices from the ground up.
+  highlights:
+    - Shipped MVP in 3 months
+    - Grew user base from 0 to 5,000
+    - Set up CI/CD and monitoring infrastructure

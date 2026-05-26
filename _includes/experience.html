@@ -1,0 +1,26 @@
+<section id="experience">
+  <div class="container">
+    <p class="section-label">/ 01</p>
+    <h2 class="section-title">Experience</h2>
+    {% for item in site.data.experience %}
+    <div class="exp-item">
+      <div class="exp-head">
+        <span class="exp-role">{{ item.role }} <span class="exp-company">— {{ item.company }}</span></span>
+        <span class="exp-date">{{ item.dates }}</span>
+      </div>
+      {% if item.description %}
+      <div class="exp-desc">
+        {{ item.description | markdownify }}
+        {% if item.highlights %}
+        <ul>
+          {% for h in item.highlights %}
+          <li>{{ h }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

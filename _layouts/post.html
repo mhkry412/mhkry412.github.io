@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article class="container post">
+  <p class="section-label">{{ page.date | date: "%B %d, %Y" }}</p>
+  <h1 class="post-title">{{ page.title }}</h1>
+  {% if page.tags.size > 0 %}
+  <div class="post-tags">
+    {% for tag in page.tags %}
+    <span>{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+  <div class="post-content">
+    {% if page.mathjax or site.mathjax %}
+    {% include mathjax.html %}
+    {% endif %}
+    {{ content }}
+  </div>
+</article>
