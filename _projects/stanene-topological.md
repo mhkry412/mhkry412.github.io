@@ -1,6 +1,7 @@
 ---
 title: Topological Properties of Stanene
 description: "DFT study of stanene — a 2D topological insulator — using Quantum ESPRESSO with spin-orbit coupling."
+image: /assets/images/structures_all.svg
 tags: [Quantum ESPRESSO, Stanene, Topological Insulator, DFT, SOC]
 mathjax: true
 ---

@@ -1,6 +1,7 @@
 ---
 title: FASI Perovskite Electronic Structure
 description: "Projected density of states analysis of formamidinium tin iodide (FASI) perovskite for solar cell applications."
+image: /assets/images/bands_pdos_pristine.png
 tags: [DFT, Quantum ESPRESSO, Perovskite, FASI, PDOS]
 mathjax: true
 ---

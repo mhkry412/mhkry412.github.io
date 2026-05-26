@@ -1,6 +1,7 @@
 ---
 title: MoS₂ CVD Growth on Mica
 description: "Reactive MD simulation of monolayer MoS₂ nucleation and growth on muscovite mica via LPCVD."
+image: /assets/images/MoS2_structure.png
 tags: [LAMMPS, ReaxFF, MoS₂, Mica, CVD, MD]
 mathjax: true
 ---
@@ -34,3 +35,8 @@ field (Ponomarev 2022):
 - **Mahameru HPC** (BRIN) — SLURM jobs, MPI parallelization
 - **Quasi Cluster** (BRIN) — Local GPU cluster
 - Analysis via OVITO, Python (ASE, MDanalysis, matplotlib)
+
+<figure class="figure">
+  <img src="/assets/images/MoS2_bands_dos.png" alt="Band structure and DOS of monolayer MoS2">
+  <figcaption>Electronic band structure and density of states of monolayer MoS₂.</figcaption>
+</figure>
