@@ -1,7 +1,7 @@
 ---
 title: MoS₂ CVD Growth on Mica
 description: "Reactive MD simulation of monolayer MoS₂ nucleation and growth on muscovite mica via LPCVD."
-image: /assets/images/MoS2_structure.png
+thumbnail: /assets/images/MoS2_structure.png
 tags: [LAMMPS, ReaxFF, MoS₂, Mica, CVD, MD]
 mathjax: true
 ---

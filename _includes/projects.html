@@ -5,9 +5,9 @@
     <div class="project-grid">
       {% for project in site.projects %}
       <div class="project-card">
-        {% if project.image %}
+        {% if project.thumbnail %}
         <a href="{{ project.url | relative_url }}" class="project-image-link">
-          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image" loading="lazy">
+          <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title }}" class="project-image" loading="lazy">
         </a>
         {% endif %}
         <div class="project-card-body">

@@ -1,7 +1,7 @@
 ---
 title: Graphene Oxide from Coconut Fiber
 description: "Green synthesis of graphene oxide from coconut fiber biomass for sustainable nanomaterial applications."
-image: /assets/images/structures_all.svg
+thumbnail: /assets/images/structures_all.svg
 tags: [Graphene Oxide, Biomass, Synthesis, Nanomaterials]
 ---
 

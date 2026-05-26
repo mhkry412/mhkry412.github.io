@@ -1,7 +1,7 @@
 ---
 title: Temperature-Activated d0 Magnetism in hBN
 description: "DFT + MD study of defective monolayer hBN revealing heat-induced magnetism via spin-phonon coupling."
-image: /assets/images/hBN_spin_BB_1225K.png
+thumbnail: /assets/images/hBN_spin_BB_1225K.png
 tags: [Quantum ESPRESSO, LAMMPS, ReaxFF, hBN, DFT, MD]
 mathjax: true
 ---
