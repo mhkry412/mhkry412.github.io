@@ -1,37 +1,42 @@
-- category: Languages
+- category: DFT & First-Principles
   items:
-    - TypeScript
-    - JavaScript
-    - Go
-    - Rust
+    - Quantum ESPRESSO
+    - SIESTA
+    - Density Functional Theory
+    - Band Structure
+    - DOS / PDOS
+    - Spin-Orbit Coupling
+
+- category: Molecular Dynamics
+  items:
+    - LAMMPS
+    - ReaxFF
+    - OVITO
+    - Radial Distribution Function
+    - Mean Square Displacement
+    - Coordination Analysis
+
+- category: Programming
+  items:
     - Python
-    - SQL
-    - HTML / CSS
+    - Bash
+    - LaTeX
+    - Typst
+    - ASE
+    - pymatgen
+    - matplotlib
 
-- category: Frontend
+- category: HPC & Infrastructure
   items:
-    - React
-    - Vue.js
-    - Svelte
-    - Tailwind CSS
-    - Next.js
-    - WebGL
-
-- category: Backend & Infrastructure
-  items:
-    - Node.js
-    - Express
-    - PostgreSQL
-    - Redis
-    - Docker
-    - Kubernetes
-    - AWS
-    - CI/CD
-
-- category: Design & Tools
-  items:
-    - Figma
-    - System Design
-    - API Design
-    - Git
+    - SLURM
+    - Mahameru (BRIN)
+    - Quasi Cluster
+    - MPI / mpirun
     - Linux
+    - Git
+
+- category: Experimental
+  items:
+    - Graphene Oxide Synthesis
+    - Biomass Processing
+    - Chemical Synthesis

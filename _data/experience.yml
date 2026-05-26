@@ -1,35 +1,54 @@
-- role: Software Engineer
-  company: Freelance
-  dates: "2022 – Present"
+- role: Research Assistant
+  company: BRIN — Pusat Riset Fisika Kuantum
+  dates: "Feb 2026 – Present"
   description: >
-    Design and build full-stack web applications for clients across
-    industries. Focus on clean architecture, performance, and
-    maintainable code.
+    Atomistic simulations of 2D materials using DFT (Quantum ESPRESSO)
+    and MD (LAMMPS/ReaxFF) on BRIN's HPC infrastructure. Modeling
+    MoS₂ CVD growth on muscovite mica for master's thesis. Developing
+    Python scripts for workflow automation and data visualization.
   highlights:
-    - Built and deployed 10+ production applications
-    - Reduced page load times by 40% through optimization
-    - Migrated legacy monoliths to modern stack
+    - Simulated monolayer MoS₂ nucleation and growth via LPCVD using ReaxFF
+    - Managed HPC workflows on Mahameru & Quasi Cluster (SLURM)
+    - Built automated analysis pipelines for MD trajectories
 
-- role: Frontend Developer
-  company: Digital Agency
-  dates: "2020 – 2022"
+- role: Research Intern
+  company: BRIN — Pusat Riset Fisika Kuantum
+  dates: "Jan 2024 – Feb 2024"
   description: >
-    Developed responsive web applications and component libraries.
-    Collaborated with designers and backend engineers to deliver
-    pixel-perfect, accessible interfaces.
+    First-principles electronic structure calculations of stanene
+    using Quantum ESPRESSO to investigate its topological properties.
+    Analyzed band structures and density of states with SOC.
   highlights:
-    - Led redesign of flagship product interface
-    - Established design system used by 3 teams
-    - Mentored 2 junior developers
+    - Computed band structure and DOS of stanene with spin-orbit coupling
+    - Gained hands-on experience with DFT workflows on HPC
 
-- role: Junior Developer
-  company: Startup
-  dates: "2018 – 2020"
+- role: Research Intern
+  company: ITS Physics Dept. / G'nomaC (PT. Graphene Nanomaterial Consulting)
+  dates: "Mar 2023 – Dec 2023"
   description: >
-    First engineering hire at an early-stage startup. Built the
-    initial product, iterated on user feedback, and helped shape
-    engineering practices from the ground up.
+    Synthesized graphene oxide from coconut fiber biomass for
+    sustainable materials research. Collaborated in a multidisciplinary
+    team to refine synthesis techniques for eco-friendly applications.
   highlights:
-    - Shipped MVP in 3 months
-    - Grew user base from 0 to 5,000
-    - Set up CI/CD and monitoring infrastructure
+    - Developed graphene oxide synthesis route from biomass
+    - Contributed to sustainable nanomaterial research
+
+- role: Teaching Assistant — Mechanics Physics
+  company: ITS — International Undergraduate Program
+  dates: "Sep 2024 – Dec 2024"
+  description: >
+    Conducted tutorial sessions for IUP students. Provided guidance
+    on fundamental physics concepts and problem-solving.
+  highlights:
+    - Led weekly tutorial sessions in English
+    - Developed practice problems and grading rubrics
+
+- role: Lab Assistant — Basic Physics Laboratory
+  company: ITS — Dept. of Physics
+  dates: "Sep 2023 – Nov 2024"
+  description: >
+    Guided undergraduate students in experimental setups, data
+    collection, and analysis for mechanics and electromagnetism labs.
+  highlights:
+    - Supervised both IUP and regular program lab sessions
+    - Mentored students on data analysis and report writing

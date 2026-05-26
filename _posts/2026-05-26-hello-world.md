@@ -5,25 +5,23 @@ date: 2026-05-26
 tags: [meta]
 ---
 
-Hello, and welcome to my little corner of the web.
+Welcome to my research portfolio.
 
-This site is built with [Jekyll](https://jekyllrb.com/) and follows
-the [Dead Simple Sites](https://deadsimplesites.com/) philosophy:
-**less, but better**.
-
-Everything is content-first. No bloat. No distractions. Just clean
-typography, generous whitespace, and a focus on what matters.
+I'm a computational physicist at **BRIN** and an M.Sc. candidate at
+**Universitas Indonesia**, working on atomistic simulations of
+two-dimensional materials.
 
 ### What you'll find here
 
-- **Projects** — things I've built and am proud of
-- **Posts** — occasional thoughts and notes
-- **About** — who I am and what I do
+- **Research projects** — DFT and MD studies of 2D materials
+- **Posts** — notes on methods, workflows, and findings
+- **About** — my background, education, and interests
 
-### How this site works
+### Tech stack
 
-All content is written in plain Markdown. The layout is rendered by
-Jekyll using a minimal custom theme. Deployed via GitHub Pages with a
-single `git push`.
+This site is built with [Jekyll](https://jekyllrb.com/) and follows
+the [Dead Simple Sites](https://deadsimplesites.com/) philosophy:
+**less, but better**. Content is written in Markdown with LaTeX
+math via MathJax. A Typst resume is included for PDF export.
 
-That's it. Dead simple.
+Deployed on GitHub Pages. One `git push` is all it takes.

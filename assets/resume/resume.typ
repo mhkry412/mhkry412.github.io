@@ -1,5 +1,5 @@
-// Typst Resume for Handar
-// Compile with: typst compile resume.typ resume.pdf
+// Typst Resume — Hanandaru Mahaputra Purwanto
+// Compile: typst compile resume.typ resume.pdf
 
 #set page(paper: "a4", margin: (top: 2.5cm, bottom: 2cm, left: 2.5cm, right: 2.5cm))
 #set text(font: ("Helvetica", "Arial", "system-ui"), size: 10pt, lang: "en")
@@ -28,13 +28,13 @@
 
 // ─── Header ───
 
-align(center, text(size: 20pt, weight: 700, "Handar"))
+align(center, text(size: 20pt, weight: 700, "Hanandaru Mahaputra Purwanto"))
 
 v(0.15cm)
-align(center, text(size: 9pt, fill: gray, "Software Engineer"))
+align(center, text(size: 9pt, fill: gray, "Computational Physicist"))
 
 v(0.1cm)
-align(center, text(size: 8pt, fill: gray, "hello@handar.dev  /  github.com/handar  /  linkedin.com/in/handar"))
+align(center, text(size: 8pt, fill: gray, "handarpurwanto02@gmail.com  /  github.com/mhkry412  /  linkedin.com/in/handar-purwanto"))
 
 v(0.5cm)
 
@@ -42,52 +42,99 @@ v(0.5cm)
 
 section-title("Summary")
 
-Software engineer with 8+ years of experience building web applications
-and distributed systems. Passionate about clean architecture, developer
-tooling, and minimalist design.
+Computational physicist specializing in DFT and MD simulations of
+2D materials. Research Assistant at BRIN's Quantum Physics Research
+Center. M.Sc. candidate at Universitas Indonesia. Experienced in
+HPC workflows, electronic structure analysis, and atomistic
+modeling of low-dimensional systems.
 
 // ─── Experience ───
 
 section-title("Experience")
 
 #entry(
-  "Software Engineer",
-  subtitle: "Freelance",
-  date: "2022 – Present",
+  "Research Assistant",
+  subtitle: "BRIN — Pusat Riset Fisika Kuantum",
+  date: "Feb 2026 – Present",
   body: [
-    Design and build full-stack web applications for clients across
-    industries. Focus on clean architecture and performance.
+    Atomistic simulations of MoS₂ CVD growth on mica using
+    LAMMPS/ReaxFF and Quantum ESPRESSO on BRIN HPC.
 
-    - Built and deployed 10+ production applications
-    - Reduced page load times by 40% through optimization
-    - Migrated legacy monoliths to modern stack
+    - Simulated monolayer MoS₂ nucleation and growth via LPCVD
+    - Managed HPC workflows on Mahameru & Quasi Cluster (SLURM)
+    - Built Python pipelines for trajectory analysis and visualization
   ]
 )
 
 #entry(
-  "Frontend Developer",
-  subtitle: "Digital Agency",
-  date: "2020 – 2022",
+  "Research Intern",
+  subtitle: "BRIN — Pusat Riset Fisika Kuantum",
+  date: "Jan 2024 – Feb 2024",
   body: [
-    Developed responsive web applications and component libraries.
+    DFT study of topological properties of stanene using
+    Quantum ESPRESSO with spin-orbit coupling.
 
-    - Led redesign of flagship product interface
-    - Established design system used by 3 teams
-    - Mentored 2 junior developers
+    - Computed band structure and DOS of stanene
+    - Investigated topological edge states
   ]
 )
 
 #entry(
-  "Junior Developer",
-  subtitle: "Startup",
-  date: "2018 – 2020",
+  "Research Intern",
+  subtitle: "ITS / G'nomaC",
+  date: "Mar 2023 – Dec 2023",
   body: [
-    First engineering hire. Built the initial product from scratch.
+    Synthesized graphene oxide from coconut fiber biomass for
+    sustainable nanomaterials research.
 
-    - Shipped MVP in 3 months
-    - Grew user base from 0 to 5,000
-    - Set up CI/CD and monitoring infrastructure
+    - Developed GO synthesis route from agricultural waste
+    - Characterized products via XRD, FTIR, Raman, SEM
   ]
+)
+
+#entry(
+  "Teaching Assistant — Mechanics Physics",
+  subtitle: "ITS International Undergraduate Program",
+  date: "Sep 2024 – Dec 2024",
+  body: [
+    Led tutorial sessions and mentored IUP students in
+    fundamental physics.
+  ]
+)
+
+#entry(
+  "Lab Assistant — Basic Physics",
+  subtitle: "ITS Dept. of Physics",
+  date: "Sep 2023 – Nov 2024",
+  body: [
+    Guided undergraduates in mechanics and electromagnetism
+    laboratory experiments and data analysis.
+  ]
+)
+
+// ─── Education ───
+
+section-title("Education")
+
+#entry(
+  "M.Sc. Physics",
+  subtitle: "Universitas Indonesia",
+  date: "2026 – Present",
+  body: [Degree by Research (DbR) scholarship — BRIN partnership.]
+)
+
+#entry(
+  "B.Sc. Physics (S.Si.)",
+  subtitle: "Institut Teknologi Sepuluh Nopember",
+  date: "2021 – 2025",
+  body: [GPA 2.99. Thesis on DFT+MD study of hBN magnetic properties.]
+)
+
+#entry(
+  "COIL Program",
+  subtitle: "Shibaura Institute of Technology, Japan",
+  date: "2024",
+  body: [Topics: superconductivity, magnetism, advanced heat transfer.]
 )
 
 // ─── Skills ───
@@ -97,19 +144,9 @@ section-title("Skills")
 #grid(
   columns: (auto, 1fr),
   row-gutter: 0.2cm,
-  [*Languages:*],  "TypeScript, Go, Rust, Python, SQL, HTML/CSS",
-  [*Frontend:*],   "React, Vue.js, Svelte, Tailwind CSS, Next.js",
-  [*Backend:*],    "Node.js, Express, PostgreSQL, Redis, gRPC",
-  [*Infra:*],      "Docker, Kubernetes, AWS, CI/CD",
-  [*Tools:*],      "Figma, Git, Linux, System Design",
-)
-
-// ─── Education ───
-
-section-title("Education")
-
-#entry(
-  "B.Sc. Computer Science",
-  subtitle: "University",
-  date: "2014 – 2018",
+  [*DFT:*],     "Quantum ESPRESSO, SIESTA, band structure, DOS, PDOS, SOC",
+  [*MD:*],      "LAMMPS, ReaxFF, OVITO, RDF, MSD, coordination analysis",
+  [*Code:*],    "Python, Bash, LaTeX, Typst, ASE, pymatgen, matplotlib",
+  [*HPC:*],     "SLURM, MPI, Mahameru, Linux, Git",
+  [*Lang:*],    "Indonesian (native), English (professional)",
 )

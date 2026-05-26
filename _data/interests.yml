@@ -1,17 +1,17 @@
-- title: Programming Languages
-  description: Type theory, compilers, and language design
+- title: 2D Materials
+  description: hBN, MoS₂, stanene, graphene — structure, properties, and applications
 
-- title: Distributed Systems
-  description: Consensus algorithms, fault tolerance, and scalability
+- title: Topological Insulators
+  description: Quantum spin Hall effect, edge states, and topological protection
 
-- title: Human-Computer Interaction
-  description: Usability, accessibility, and interaction design
+- title: Multiscale Modeling
+  description: Bridging DFT and MD for realistic materials simulations
 
-- title: Open Source
-  description: Contributing to and maintaining community tools
+- title: Quantum Materials
+  description: d0 magnetism, spin-phonon coupling, and emergent phenomena
 
-- title: Minimalist Design
-  description: Less is more. Clarity over complexity.
+- title: HPC & Scientific Computing
+  description: High-performance computing workflows and automation
 
-- title: Music & Audio
-  description: Digital audio processing and synthesis
+- title: Sustainable Nanomaterials
+  description: Green synthesis of graphene derivatives from biomass

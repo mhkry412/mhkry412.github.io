@@ -1,15 +1,11 @@
 - label: Email
-  url: "mailto:hello@handar.dev"
+  url: "mailto:handarpurwanto02@gmail.com"
   external: false
 
 - label: GitHub
-  url: "https://github.com/handar"
+  url: "https://github.com/mhkry412"
   external: true
 
 - label: LinkedIn
-  url: "https://linkedin.com/in/handar"
-  external: true
-
-- label: Twitter
-  url: "https://twitter.com/handar"
+  url: "https://linkedin.com/in/handar-purwanto"
   external: true
